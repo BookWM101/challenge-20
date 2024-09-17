@@ -5,7 +5,7 @@ const AboutMe = () => (
   <section className="container my-5">
     <div className="row">
       <div className="col-md-4">
-        <img src="path/to/avatar.jpg" alt="Kayla" className="img-fluid rounded-circle" />
+        <img src= "/images/pidge.png" alt="Kayla" className="img-fluid rounded-circle"/>
       </div>
       <div className="col-md-8">
         <h2>About Me</h2>

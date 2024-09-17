@@ -7,7 +7,7 @@ const Header = ({ activeSection, setActiveSection }) => {
   return (
     <header className="bg-light-blue py-3">
       <nav className="navbar navbar-expand-lg navbar-light container">
-        <a className="navbar-brand" href="/">Kayla's Portfolio</a>
+        <a className="navbar-brand" href="/">Kayla Flint</a>
         <ul className="navbar-nav ms-auto">
           {sections.map((section) => (
             <li key={section} className="nav-item">
