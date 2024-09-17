@@ -1,0 +1,28 @@
+/* ProjectCard.css */
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-card {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay behind text for visibility */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
